@@ -1,3 +1,4 @@
+# © 2022 Lee-Ki-Joon(Gloomn) <ithan0704@naver.com>
 from tkinter import *
 
 def stdEntry(x, y, width, borderWidth, borderBackground, foreGroundColor, backGroundColor, fontFamily, fontSize, text, textVariable, show):

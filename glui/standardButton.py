@@ -17,7 +17,7 @@ def fltButton(x, y, width, height, command,  text = "standardButton", backGround
                         activeforeground=foreGroundColor,
                         activebackground=backGroundColor,
                         command=command,
-                        relief=SOLID,
+                        relief=SUNKEN,
                         cursor=cursor)
     flatButton.bind("<Enter>", on_enter)
     flatButton.bind("<Leave>", on_leave)
