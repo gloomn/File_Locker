@@ -1,10 +1,10 @@
 # © 2022 Lee-Ki-Joon(Gloomn) <ithan0704@naver.com>
 from tkinter import *
 
-def stdEntry(x, y, width, borderWidth, borderBackground, foreGroundColor, backGroundColor, fontFamily, fontSize, text, textVariable, show):
+def stdEntry(target, x, y, width, borderWidth, borderBackground, foreGroundColor, backGroundColor, fontFamily, fontSize, text, textVariable, show):
 
 
-    standardEntry = Entry(width = width,
+    standardEntry = Entry(master=target, width = width,
                           fg=foreGroundColor,
                           bg=backGroundColor,
                           text=text,
