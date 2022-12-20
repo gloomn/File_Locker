@@ -56,7 +56,7 @@ def registerFormAction():
     standardEntry.stdEntry(window, 130, 220, 20,1,"#a2a4a6", "#000", "#fff", "맑은 고딕", "10", "Password", password, '')
     standardEntry.stdEntry(window, 130, 270, 20,1,"#a2a4a6", "#000", "#fff", "맑은 고딕", "10", "Password Check", password_check, '')
     standardButton.fltButton(window,130,300,20, 2,register, "Register", "#ffcc66", "#141414")
-
+    window.bind('<Return>', lambda event: register())
 
     window.iconbitmap('resources/mainIcon_Black.ico')
     window.mainloop()
